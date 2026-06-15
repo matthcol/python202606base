@@ -22,3 +22,8 @@ Avec pip:
 ```
 pip install jupyterlab numpy matplotlib
 ```
+
+En mode web:
+```
+jupyter lab
+```
