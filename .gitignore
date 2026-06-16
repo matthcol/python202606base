@@ -2,3 +2,6 @@
 __fiches__/
 __pycache__/
 .pytest_cache/
+
+# data
+*.csv
