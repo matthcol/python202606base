@@ -1,0 +1,1 @@
+# NB: ce fichier indique que le répertoire courant est un package

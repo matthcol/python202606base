@@ -1,6 +1,8 @@
 # module euclide
 
-import sys # solution simple pour gérer les arguments en mode CLI
+# solution #2 pour gérer les arguments en mode CLI
+# inclus dans la lib standard de python
+import argparse 
 
 # def pgcd(a, b):  # without annotation type (hints)
 def pgcd(a: int, b: int) -> int:  # with annotation type (hints)
@@ -14,8 +16,15 @@ def pgcd(a: int, b: int) -> int:  # with annotation type (hints)
 # * possibilité 1 : utilisé dans une autre application : __name__ = 'euclide'
 # * possibilité 2 : utilisé comme application (point d'entrée) : __name__ = '__main__'
 if __name__ == '__main__':
-    print('[DEBUG] paramètres sys.argv :', sys.argv)
-    x = int(sys.argv[1])
-    y = int(sys.argv[2])
+    # paramètrage
+    argparser = argparse.ArgumentParser('euclide')
+    argparser.add_argument('x', type=int)
+    argparser.add_argument('y', type=int)
+    # appliquer le paramétrage
+    args = argparser.parse_args()
+    # récupérer chaque paramètre
+    x = args.x
+    y = args.y
+    # utiliser les paramètres
     g = pgcd(x, y)
     print(f"Le pgcd de {x} et {y} est {g}")

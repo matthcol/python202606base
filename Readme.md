@@ -27,3 +27,25 @@ En mode web:
 ```
 jupyter lab
 ```
+
+## Gestion des dépendances
+Gestionnaire : pip, conda, mamba, poetry.
+
+Ajouter une dépendance:
+```
+conda install pytest
+pip install pytest
+```
+
+Avec un fichier requirements.txt
+```
+conda install --file requirements.txt
+pip install -r requirements.txt
+```
+
+## Tests avec pytest
+En mode CLI:
+```
+pytest
+pytest -v
+```
