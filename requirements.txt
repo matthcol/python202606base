@@ -4,3 +4,8 @@ matplotlib
 pandas
 pytest
 typer
+openpyxl
+lxml
+pillow
+beautifulsoup4
+requests
