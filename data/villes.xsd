@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Villes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Ville" type="VilleType" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="VilleType">
+    <xs:sequence>
+      <xs:element name="nom_standard" type="xs:string"/>
+      <xs:element name="nom_sans_pronom" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="dep_code" type="CodeDepartementType" use="required"/>
+    <xs:attribute name="code_postal" type="CodePostalType" use="required"/>
+    <xs:attribute name="population" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="superficie_km2" type="xs:positiveInteger" use="required"/>
+  </xs:complexType>
+
+  <!-- Code département : 2 ou 3 chiffres (ex: 06, 13, 2A, 2B, 971...) -->
+  <xs:simpleType name="CodeDepartementType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{2,3}|2[AB]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Code postal : exactement 5 chiffres -->
+  <xs:simpleType name="CodePostalType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{5}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>
