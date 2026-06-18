@@ -1,0 +1,43 @@
+nom_standard;nom_sans_pronom;dep_code;dep_nom;code_postal;population;superficie_km2
+Nice;Nice;06;Alpes-Maritimes;06000;348085;74
+Aix-en-Provence;Aix-en-Provence;13;Bouches-du-Rhône;13100;147478;188
+Marseille;Marseille;13;Bouches-du-Rhône;13000;873076;241
+Caen;Caen;14;Calvados;14000;108200;26
+Dijon;Dijon;21;Côte-d'Or;21000;159346;42
+Besançon;Besançon;25;Doubs;25000;119198;65
+Brest;Brest;29;Finistère;29200;139619;49
+Nîmes;Nîmes;30;Gard;30900;148104;161
+Toulouse;Toulouse;31;Haute-Garonne;31100;504078;118
+Bordeaux;Bordeaux;33;Gironde;33300;261804;50
+Montpellier;Montpellier;34;Hérault;34080;302454;57
+Rennes;Rennes;35;Ille-et-Vilaine;35700;225081;50
+Tours;Tours;37;Indre-et-Loire;37100;137658;33
+Grenoble;Grenoble;38;Isère;38000;157477;19
+Saint-Étienne;Saint-Étienne;42;Loire;42100;172718;80
+Nantes;Nantes;44;Loire-Atlantique;44200;323204;66
+Orléans;Orléans;45;Loiret;45000;116617;28
+Angers;Angers;49;Maine-et-Loire;49000;157175;44
+Reims;Reims;51;Marne;51100;179380;47
+Nancy;Nancy;54;Meurthe-et-Moselle;54100;104260;15
+Metz;Metz;57;Moselle;57070;120874;42
+Lille;Lille;59;Nord;59260;236710;35
+Clermont-Ferrand;Clermont-Ferrand;63;Puy-de-Dôme;63100;147327;43
+Perpignan;Perpignan;66;Pyrénées-Orientales;66000;119656;68
+Strasbourg;Strasbourg;67;Bas-Rhin;67000;291313;78
+Mulhouse;Mulhouse;68;Haut-Rhin;68200;106341;22
+Lyon;Lyon;69;Rhône;69000;522250;48
+Villeurbanne;Villeurbanne;69;Rhône;69100;156928;15
+Le Mans;Mans;72;Sarthe;72100;145004;53
+Annecy;Annecy;74;Haute-Savoie;74000;131715;16
+Paris;Paris;75;Paris;75000;2133111;105
+Le Havre;Havre;76;Seine-Maritime;76620;166058;55
+Rouen;Rouen;76;Seine-Maritime;76100;114083;21
+Amiens;Amiens;80;Somme;80090;133625;50
+Toulon;Toulon;83;Var;83000;180452;44
+Limoges;Limoges;87;Haute-Vienne;87100;129760;80
+Boulogne-Billancourt;Boulogne-Billancourt;92;Hauts-de-Seine;92100;119808;6
+Montreuil;Montreuil;93;Seine-Saint-Denis;93100;111455;9
+Saint-Denis;Saint-Denis;93;Seine-Saint-Denis;93210;113942;12
+Argenteuil;Argenteuil;95;Val-d'Oise;95100;107221;17
+Saint-Denis;Saint-Denis;974;La Réunion;97400;154765;142
+Saint-Paul;Saint-Paul;974;La Réunion;97411;105240;240
